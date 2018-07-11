@@ -2,38 +2,39 @@
 Font Size: 120px/36px/30px
 Button font: 26px
 Colours: #7e75f3, #50d14e, #3d4354, #181e29;, border lines are 10% white. */
+
 * {
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
-  }
-  
-  body {
+}
+
+body {
     background: #181e29;
-  }
-  
-  .container {
+}
+
+.container {
     width: 900px;
     margin: 20px auto;
     overflow: auto;
-  }
-  
-  .calc-body {
+}
+
+.calc-body {
     float: left;
     width: 375px;
     margin: auto;
     min-height: 400px;
     border: solid 1px #3A4655;
     box-shadow: 0 8px 50px -7px black;
-  }
-  
-  .calc-screen {
+}
+
+.calc-screen {
     background: #7e75f3;
     width: 100%;
     height: 190px;
     padding: 20px;
-  }
-  
-  .calc-operation {
+}
+
+.calc-operation {
     font-size: 36px;
     text-align: right;
     background-color: #fff;
@@ -43,21 +44,21 @@ Colours: #7e75f3, #50d14e, #3d4354, #181e29;, border lines are 10% white. */
     height: 75px;
     width: 100%;
     display: block;
-  }
-  
-  .calc-typed {
+}
+
+.calc-typed {
     margin-top: 20px;
     font-size: 120px;
     text-align: right;
     color: #fff;
-  }
-  
-  .calc-button-row {
+}
+
+.calc-button-row {
     width: 100%;
     background: #3C4857;
-  }
-  
-  .button {
+}
+
+.button {
     font-size: 26px;
     width: 25%;
     background: #3d4354;
@@ -68,12 +69,12 @@ Colours: #7e75f3, #50d14e, #3d4354, #181e29;, border lines are 10% white. */
     text-align: center;
     vertical-align: middle;
     margin-right: -4px;
-    border-right: solid 2px rgb(60%,60%,60%);
-    border-bottom: solid 2px rgb(60%,60%,60%);
+    border-right: solid 2px rgb(60%, 60%, 60%);
+    border-bottom: solid 2px rgb(60%, 60%, 60%);
     transition: all 0.2s ease-in-out;
-  }
+}
 
-  .clear-button{
+.clear-button {
     position: absolute;
     top: 213px;
     z-index: 9;
@@ -85,11 +86,13 @@ Colours: #7e75f3, #50d14e, #3d4354, #181e29;, border lines are 10% white. */
     text-align: center;
     text-decoration: none;
     font-size: 26px;
-  }
-  .show-body{
+}
+
+.show-body {
     overflow: auto;
-  }
-  .show-button{
+}
+
+.show-button {
     margin-right: 50%;
     float: right;
     background: #7e75f3;
@@ -100,29 +103,31 @@ Colours: #7e75f3, #50d14e, #3d4354, #181e29;, border lines are 10% white. */
     text-decoration: none;
     font-size: 26px;
 }
-  .operation{
+
+.operation {
     margin: auto;
     padding: 20px;
-  } 
-  
-  .show-all::before{
+}
+
+.show-all::before {
     clear: both;
-  }
-  .show-all{
+}
+
+.show-all {
     background: #181e29;
     margin-top: 20%;
     height: 280px;
     width: 80%;
     color: #fff;
-  }
-  #dynamic-list{
+}
+
+#dynamic-list {
     margin-top: 27%;
-  }
-  .list{
+}
+
+.list {
     list-style: none;
     font-size: 30px;
     margin-left: 80px;
     margin-top: 15px;
-  }
-
-  
+}
